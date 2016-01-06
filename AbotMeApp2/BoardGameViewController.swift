@@ -11,6 +11,12 @@ import UIKit
 
 class BoardGameController : UIViewController
 {
+
+    @IBAction func changeToMusic(sender: UIButton)
+    {
+        performSegueWithIdentifier("toMusic", sender: sender)
+    }
+    
     override func viewDidLoad(){
         super.viewDidLoad()
     }

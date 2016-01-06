@@ -20,7 +20,13 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4m-YH-abl">
                                 <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeToBoardGames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oas-J3-59I"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PART 1 DONE" translatesAutoresizingMaskIntoConstraints="NO" id="7Dt-22-TW7">
+                                <rect key="frame" x="49" y="45" width="317" height="247"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.4585929347111054" blue="0.23393666332517071" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -48,6 +54,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ELK-dx-x1p">
                                 <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeToMain:" destination="RXN-4g-O1O" eventType="touchUpInside" id="1es-4B-WaD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.76246544792420579" green="0.33179500955917596" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -77,6 +86,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHD-Jw-sEq">
                                 <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeToMusic:" destination="SVW-j8-gnd" eventType="touchUpInside" id="1W2-Fm-aWy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.70228040758820454" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -105,13 +117,16 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDd-8G-Khs">
                                 <rect key="frame" x="184" y="353" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeToRunning:" destination="WcJ-qC-aKf" eventType="touchUpInside" id="V8F-YX-c1H"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.95965059168133471" blue="0.97240800385860504" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="RXN-4g-O1O" kind="presentation" identifier="toRunning" id="f0s-rS-bzH"/>
+                        <segue destination="RXN-4g-O1O" kind="presentation" identifier="toRunning" id="uWj-Qt-LS8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BvM-l1-y6t" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -119,4 +134,7 @@
             <point key="canvasLocation" x="460" y="911"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="PART 1 DONE" width="570" height="432"/>
+    </resources>
 </document>

@@ -11,6 +11,12 @@ import UIKit
 
 class MusicViewController : UIViewController
 {
+
+    @IBAction func changeToRunning(sender: UIButton)
+    {
+        performSegueWithIdentifier("toRunning", sender: sender)
+    }
+    
     override func viewDidLoad(){
         super.viewDidLoad()
     }

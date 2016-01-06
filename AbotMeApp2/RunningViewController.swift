@@ -11,6 +11,11 @@ import UIKit
 
 class RunningViewController : UIViewController
 {
+    @IBAction func changeToMain(sender: UIButton)
+    {
+        performSegueWithIdentifier("toMain", sender: sender)
+    }
+   
     override func viewDidLoad(){
         super.viewDidLoad()
     }

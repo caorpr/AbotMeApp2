@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+
+    @IBAction func changeToBoardGames(sender: UIButton)
+    {
+         performSegueWithIdentifier("toBoardGames", sender: sender)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
