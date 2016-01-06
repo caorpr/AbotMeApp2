@@ -14,6 +14,9 @@
 		3C84C24E1C3D9B9B004C3F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C84C24C1C3D9B9B004C3F2D /* LaunchScreen.storyboard */; };
 		3C84C2591C3D9B9B004C3F2D /* AbotMeApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C84C2581C3D9B9B004C3F2D /* AbotMeApp2Tests.swift */; };
 		3C84C2641C3D9B9B004C3F2D /* AbotMeApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C84C2631C3D9B9B004C3F2D /* AbotMeApp2UITests.swift */; };
+		3C84C2741C3D9E8F004C3F2D /* RunningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C84C2731C3D9E8F004C3F2D /* RunningViewController.swift */; };
+		3C84C2761C3D9F11004C3F2D /* BoardGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C84C2751C3D9F11004C3F2D /* BoardGameViewController.swift */; };
+		3C84C27A1C3D9FA7004C3F2D /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C84C2791C3D9FA7004C3F2D /* MusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3C84C25F1C3D9B9B004C3F2D /* AbotMeApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbotMeApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C84C2631C3D9B9B004C3F2D /* AbotMeApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbotMeApp2UITests.swift; sourceTree = "<group>"; };
 		3C84C2651C3D9B9B004C3F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C84C2731C3D9E8F004C3F2D /* RunningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningViewController.swift; sourceTree = "<group>"; };
+		3C84C2751C3D9F11004C3F2D /* BoardGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardGameViewController.swift; sourceTree = "<group>"; };
+		3C84C2791C3D9FA7004C3F2D /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +103,8 @@
 		3C84C2421C3D9B9B004C3F2D /* AbotMeApp2 */ = {
 			isa = PBXGroup;
 			children = (
-				3C84C2431C3D9B9B004C3F2D /* AppDelegate.swift */,
-				3C84C2451C3D9B9B004C3F2D /* ViewController.swift */,
-				3C84C2471C3D9B9B004C3F2D /* Main.storyboard */,
-				3C84C24A1C3D9B9B004C3F2D /* Assets.xcassets */,
+				3C84C2721C3D9BB1004C3F2D /* View */,
+				3C84C2711C3D9BA7004C3F2D /* Controller */,
 				3C84C24C1C3D9B9B004C3F2D /* LaunchScreen.storyboard */,
 				3C84C24F1C3D9B9B004C3F2D /* Info.plist */,
 			);
@@ -123,6 +127,27 @@
 				3C84C2651C3D9B9B004C3F2D /* Info.plist */,
 			);
 			path = AbotMeApp2UITests;
+			sourceTree = "<group>";
+		};
+		3C84C2711C3D9BA7004C3F2D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C84C2451C3D9B9B004C3F2D /* ViewController.swift */,
+				3C84C2431C3D9B9B004C3F2D /* AppDelegate.swift */,
+				3C84C2731C3D9E8F004C3F2D /* RunningViewController.swift */,
+				3C84C2751C3D9F11004C3F2D /* BoardGameViewController.swift */,
+				3C84C2791C3D9FA7004C3F2D /* MusicViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3C84C2721C3D9BB1004C3F2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C84C2471C3D9B9B004C3F2D /* Main.storyboard */,
+				3C84C24A1C3D9B9B004C3F2D /* Assets.xcassets */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C84C2461C3D9B9B004C3F2D /* ViewController.swift in Sources */,
+				3C84C27A1C3D9FA7004C3F2D /* MusicViewController.swift in Sources */,
+				3C84C2761C3D9F11004C3F2D /* BoardGameViewController.swift in Sources */,
+				3C84C2741C3D9E8F004C3F2D /* RunningViewController.swift in Sources */,
 				3C84C2441C3D9B9B004C3F2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
