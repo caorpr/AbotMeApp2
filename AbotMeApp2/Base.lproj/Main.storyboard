@@ -17,30 +17,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4m-YH-abl">
-                                <rect key="frame" x="176" y="587" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4m-YH-abl">
+                                <rect key="frame" x="176" y="552" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="changeToBoardGames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oas-J3-59I"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clayton" translatesAutoresizingMaskIntoConstraints="NO" id="U1H-Uh-Roh">
-                                <rect key="frame" x="46" y="-42" width="307" height="486"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="clayton" translatesAutoresizingMaskIntoConstraints="NO" id="U1H-Uh-Roh">
+                                <rect key="frame" x="46" y="-45" width="307" height="486"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhg-Xd-01Q">
-                                <rect key="frame" x="88" y="437" width="223" height="159"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALL ABOUT CLAYTON!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vR-PB-dMu">
-                                <rect key="frame" x="102" y="459" width="194" height="49"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vR-PB-dMu">
+                                <rect key="frame" x="110" y="406" width="194" height="35"/>
+                                <string key="text">ALL ABOUT CLAYTON!! fklsadjf;lfk;dsjfksdfdajsfadsjlfdsfsadfjdsjfldsa;fjkl;dsfjsadkfkl;sdjfkl;sadjfklsadjkflsadljfdskjfldsjfjkas;ljkla;</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.4585929347111054" blue="0.23393666332517071" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7vR-PB-dMu" firstAttribute="centerX" secondItem="U1H-Uh-Roh" secondAttribute="centerX" id="ZGg-AB-qS9"/>
+                            <constraint firstItem="Q4m-YH-abl" firstAttribute="centerX" secondItem="U1H-Uh-Roh" secondAttribute="centerX" id="w0S-19-NyC"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
@@ -104,15 +103,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHD-Jw-sEq">
-                                <rect key="frame" x="184" y="353" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="changeToMusic:" destination="SVW-j8-gnd" eventType="touchUpInside" id="1W2-Fm-aWy"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="GpJ-pW-kAO">
-                                <rect key="frame" x="22" y="-10" width="372" height="438"/>
+                                <rect key="frame" x="22" y="-23" width="372" height="438"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I love board games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HN7-ay-D8Y">
                                 <rect key="frame" x="110" y="475" width="149" height="21"/>
@@ -120,6 +112,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHD-Jw-sEq">
+                                <rect key="frame" x="169" y="557" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeToMusic:" destination="SVW-j8-gnd" eventType="touchUpInside" id="1W2-Fm-aWy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.70228040758820454" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
